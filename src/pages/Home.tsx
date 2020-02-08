@@ -15,7 +15,7 @@ export const Home: React.FC<Props> = () => {
         {data.getUsers.map(user => {
           return (
             <li key={user.id}>
-              Email: {user.email} Username: {user.username}{" "}
+              Email: {user.email} Username: {user.username}
             </li>
           );
         })}
